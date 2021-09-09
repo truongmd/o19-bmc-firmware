@@ -13,12 +13,12 @@ BBLAYERS ?= " \
   ##OEROOT##/meta-openembedded/meta-networking \
   ##OEROOT##/meta-openembedded/meta-python \
   ##OEROOT##/meta-openembedded/meta-perl \
-  ##OEROOT##/meta-openbmc \
+  ##OEROOT##/o19-bmc-firmware/meta-openbmc \
   ##OEROOT##/meta-security \
-  ##OEROOT##/meta-openbmc/meta-aspeed \
-  ##OEROOT##/meta-openbmc/meta-linkedin \
-  ##OEROOT##/meta-openbmc/meta-linkedin/meta-deltapower \
-  ##OEROOT##/meta-openbmc/meta-linkedin/meta-python3 \
+  ##OEROOT##/o19-bmc-firmware/meta-openbmc/meta-aspeed \
+  ##OEROOT##/o19-bmc-firmware/meta-openbmc/meta-linkedin \
+  ##OEROOT##/o19-bmc-firmware/meta-openbmc/meta-linkedin/meta-deltapower \
+  ##OEROOT##/o19-bmc-firmware/meta-openbmc/meta-linkedin/meta-python3 \
   "
 BBLAYERS_NON_REMOVABLE ?= " \
   ##OEROOT##/meta \

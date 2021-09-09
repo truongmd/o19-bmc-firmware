@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=751419260aa954499f7abaabaa882bbe \
 
 DEPENDS = "sysfsutils virtual/libiconv bison-native flex-native"
 
-SRC_URI = "http://dl.lm-sensors.org/lm-sensors/releases/lm_sensors-${PV}.tar.bz2 \
+SRC_URI = "https://web.archive.org/web/20150822214710/http://dl.lm-sensors.org:80/lm-sensors/releases/lm_sensors-${PV}.tar.bz2 \
            file://fancontrol.init \
 "
 SRC_URI[md5sum] = "c03675ae9d43d60322110c679416901a"
