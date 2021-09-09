@@ -13,6 +13,10 @@ These instructions are only tested with CentOS 7 build environment
 5) git clone -b rocko  [https://github.com/openembedded/meta-openembedded.git](https://github.com/openembedded/meta-openembedded.git)
 6) git clone -b rocko [https://git.yoctoproject.org/git/meta-security](https://git.yoctoproject.org/git/meta-security)
 7) git clone https://github.com/truongmd/o19-bmc-firmware.git 
+8) cd o19-bmc-firmware
+9) mv * ../
+10) mv .git ../meta-openbmc
+
 
 ##### Build Delta Power Shelf
 From the poky directory:
